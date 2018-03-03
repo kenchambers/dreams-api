@@ -1,0 +1,35 @@
+{
+  "name": "dreams-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "sockets": "node sockets",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "bookshelf": "^0.12.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "google-trends-api": "^4.3.0",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.1.1",
+    "knex": "^0.14.2",
+    "knex-migrate": "^1.5.1",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "quora-api": "^1.0.1",
+    "random-words": "^1.0.0",
+    "rethinkdb": "^2.3.3",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.0.4",
+    "socketio-jwt-auth": "0.0.6",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
